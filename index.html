@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table DOM</title>
+</head>
+<body>
+    <h1>RECEIPT</h1>
+    <div class="container">
+        <div class="input">Invoice Number:<input id="invoice" type="number" placeholder="100"></div>
+        <div class="input">Customer Name:<input id="customer" type="text" placeholder="Mark Otto"></div>
+        <div class="input">Shipment:<input id="ship" type="text" placeholder="Mumbai City"></div>
+        <div class="input">Price:<input id="price" type="number" placeholder="$2000"></div>
+        <div class="input">Purchased Price:<input id="purchasedPrice" type="number" placeholder="$1000"></div>
+        <div class="input">Status:
+            <select id="status">
+                <option>Select One</option>
+                <option>Progress</option>
+                <option>On Hold</option>
+                <option>Open</option>
+            </select>
+        </div>
+        <button id="entryButton">ENTRY</button>
+        <button id="resetButton">RESET</button>
+    </div>
+    <div class="table">
+        <table id="details">
+            <thead>
+                <tr>
+                    <th>INVOICE</th>
+                    <th>CUSTOMER</th>
+                    <th>SHIPMENT</th>
+                    <th>PRICE</th>
+                    <th>PURCHASED PRICE</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
